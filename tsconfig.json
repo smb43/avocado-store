@@ -2,8 +2,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      // para acceder a un archivo en particular
       "@database": [
         "database/db.ts"
+      ],
+      // para acceder a varias archivos
+      "@components/*":[
+        "components/*"
       ]
     },
     "target": "es6",
